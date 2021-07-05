@@ -1,0 +1,457 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+/* Header */
+
+#header-nav {
+    background-color: #f6b319;
+    
+}
+
+#logo-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    color: #557c3e;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand span { /*kosher*/
+    color: #000;
+    vertical-align: middle;
+    font-size: .7em;
+}   
+
+#nav-list li {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#nav-list li:hover {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+#nav-list i {
+    color: #61122f;
+    font-size: 1.8em;
+    display: block;
+}
+
+#nav-list a {
+    color: #61122f;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#nav-list span { /* Phone Number */
+    font-size: 1.8em;
+}
+
+#nav-list div { /* We delivery */
+    color: green;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.navbar-toggler {
+    margin: 10px 0px;
+}
+
+/* end header  */
+
+/* call button */
+
+#call-btn {
+    margin-top: 20px;
+    border: 2px solid white;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f6b319;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#call-btn i {
+    color: #61122f;
+    margin-right: 5px;
+}
+
+#call-btn a {
+    padding: 0;
+    color: #61122f;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+/* main */
+
+#xs-deliver {
+    font-size: .7em;
+    letter-spacing: .1em;
+}
+
+#main-content #jumbotron {
+    border: 1px solid black;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.3);
+}
+
+#menu-tittle, #special-tittle, #map-tittle {
+    border: 2px solid black;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#menu-tittle:hover, #special-tittle:hover, #map-tittle:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+#menu-tittle {
+    background: url('../images/menu.jpg') no-repeat;
+    background-position: center;
+
+}
+
+#special-tittle {
+    background: url('../images/specials.jpg') no-repeat;
+    background-position: center;
+
+}
+
+#menu-tittle span, #special-tittle span, #map-tittle span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    color: white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+/* fin main */
+
+/* Main categories menu */
+
+.category-title {
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+
+.category-title span {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.category-title:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+
+/* Fin categories menu */
+
+/* Single category */
+
+.menu-item-title hr {
+    width: 80%;
+    margin: auto;
+}
+
+.menu-item-title .menu-item-price {
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid black;
+    max-width: 250px; /* no se permite estirar mas de 250px, de esta manera nla foto no se vera borrosa */
+    margin-left: auto;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:#557c3e;
+    width: 80px;
+    text-align: center;
+}
+
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+
+/* end single category */
+
+/* footer */
+
+.panel-footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.panel-footer .row {
+    margin-bottom: 30px;
+}
+
+.panel-footer span {
+    font-size: 1.2em;
+}
+
+#horarios, #direccion {
+    line-height: 2;
+}
+
+#direccion p {
+    color: #557c3e;
+    line-height: 1.8;
+    font-size: .8em;
+}
+
+#testimonios {
+    font-style: italic;
+}
+
+#testimonios p:nth-child(2) {
+    margin-top: 25px;
+}
+
+/* end footer */
+
+
+/* Media querys */
+
+/* Dispositivos extra largos */
+
+@media (min-width:1400px) {
+    #main-content #jumbotron {
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        width: 1200px;
+        height: 675px;  
+    }
+
+    /* Menu content  */
+
+    #menu-tittle, #special-tittle, #map-tittle {
+        width: 361px;
+        margin: 0 auto 15px;
+        overflow: hidden;
+    }
+}
+
+/* Dispositivos largos */
+@media (min-width:1200px) {
+
+    #main-content #jumbotron {
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+    }
+
+}
+
+/* Dispositivos medianos (Tablets) */
+@media (min-width:992px) and (max-width: 1199px) {
+
+    #logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #nav-list {
+        margin-top: 50px;
+    }
+
+    #main-content #jumbotron {
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+    }
+
+
+}
+
+/* Dispositivos pequeños  */
+@media (min-width:768px) and (max-width: 991px) {
+    #nav-list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-list i {
+        margin-right: 5px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid black;
+    }
+
+    #main-content #jumbotron {
+        background: url('../images/jumbotron_768.jpg') no-repeat;
+        height: 432px;
+    }
+
+}
+
+/* Dispotivos extra pequeños */
+@media (max-width:767px) {
+
+    .navbar-brand h1 {
+        font-size: 5vw;
+        margin-top: 10px;
+    }
+
+    .container {
+        justify-content: end;
+    }
+
+    .navbar-brand span {
+        font-size: .5em;
+    }
+
+    #nav-list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-list i {
+        margin-right: 5px;
+        font-size: 1.2em;
+    }   
+
+    #nav-list a {
+        font-size: 1.2em;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid black;
+        width: 100%;
+    }
+
+    #main-content #jumbotron {
+        padding: 0 !important;
+    }
+
+    /* MENU CONTENTS  */
+
+    #menu-tittle, #special-tittle, #map-tittle {
+        width: 360px;
+        margin: 0 auto 15px;
+        overflow: hidden;
+    }
+
+    /* footer */
+
+    .panel-footer {
+        text-align: center;
+    }
+
+    #direccion p {
+        margin-top: 10px;
+    }
+
+    #testimonios p:nth-child(2) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-footer hr {
+        width: 50%;
+        margin: 16px auto;
+    }
+
+    
+
+}
+
+/* media query personalizado */
+@media (max-width:576px) {
+    
+    /* single category */
+
+    .menu-item-photo {
+        margin: 0px auto 10px;
+    }
+
+    .menu-item-title {
+        text-align: center;
+    }
+
+    .menu-item-details {
+        text-align: center;
+    }
+
+    .menu-item-price {
+        text-align: center !important;
+    }
+    
+    /* end single category  */
+
+}
+
+/* Dispotivos super extra pequeños ej: iphone 5 / SE */
+@media (max-width:420px) {
+
+    .navbar-brand h1 {
+        font-size: 8vw;
+    }
+
+    #menu-tittle, #special-tittle, #map-tittle {
+        width: 280px;
+        margin: 0 auto 15px;
+        overflow: hidden;
+    }
+
+}
+
+
+/* Fin media querys */
